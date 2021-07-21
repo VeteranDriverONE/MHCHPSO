@@ -14,7 +14,6 @@ fbest=zeros(func_num,runs);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%MHCHPSO
 static_MHCHPSO=zeros(func_num,2);
 xbest_MHCHPSO=cell(func_num,1);
-goals_MHCHPSO=cell(func_num,runs);
 curve_MHCHPSO=zeros(func_num,iter_max);
 FEs_MHCHPSO=zeros(func_num,runs);
 for i=1:func_num
