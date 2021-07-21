@@ -49,10 +49,10 @@ function [bestX, bestFitness, FEs, curve] = MHCHPSO_FIN(fhd,dim,agent_num,max_it
     rng('default');
     rng('shuffle');
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    c=4;  % 4 topologies
     [group_best_pos, group, agent, agent_fit, velocity, history, history_fit]=init(fhd, agent_num, dim, lb, ub,func_id, c);
     t=1;
     FEs=200;
-    c=4;  % 4 topologies
     v_bound=(ub-lb)/10;  % Maximum and minimum speed of particles 
     group_num=agent_num/c;  % Number of particles per topology 
     group_best=agent(group_best_pos,:);  % Index of the topological best solution  
