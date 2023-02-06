@@ -1,4 +1,4 @@
-function [bestX, bestFitness, FEs, curve] = MHCHPSO_FIN(fhd,dim,agent_num,max_iter,lb,ub,func_id)
+function [bestX, bestFitness, FEs, curve] = MHCHPSO(fhd,dim,agent_num,max_iter,lb,ub,func_id)
 %-------------------------------------------------------------------------%
 %    Multi-topology hierarchical collaborative hybrid particle            %
 %        swarm optimization algorithm (MHCHPSO)                           %
