@@ -3,11 +3,11 @@ addpath(genpath(pwd))
 func_num=1;
 
 % test env 1
-% L=100;
-% R = 10;
+% L=100; % Size of space
+% R = 10; % Sensor coverage radius
 % spacing = 1;
-% dim = 2;
-% point_num= 40 ;
+% dim = 2; % 2D covering space
+% point_num= 40; % Number of sensors
 % env_id = 1;
 
 % test env 2
@@ -72,7 +72,7 @@ fbest_MHCHPSO=fbest;
 %%
 plot_coverage(wsn_obj,xbest_MHCHPSO{1},fbest_MHCHPSO,runs, env_id, "MHCHPSO")
 
-% ------------------------¸²¸ÇÍ¼----------------------------%
+% ------------------------Â¸Â²Â¸Ã‡ÃÂ¼----------------------------%
 function plot_coverage(wsn_obj,xbest,fbest,runs,env_id,alg_name)
     mid_val = floor((runs-1)/2)+1;
     
