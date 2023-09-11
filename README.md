@@ -7,10 +7,7 @@ The development software for MHCHPSO is Matlab 2018a. MHCHPSO.m is the MHCHPSO b
 # WSN coverage optimization
 
 Blue areas are irregular deployment environments.
-![Image text](https://github.com/VeteranDriverONE/MHCHPSO/blob/main/WSN_coverage_png/1.png)
-![Image text](https://github.com/VeteranDriverONE/MHCHPSO/blob/main/WSN_coverage_png/2.png)
-![Image text](https://github.com/VeteranDriverONE/MHCHPSO/blob/main/WSN_coverage_png/3.png)
-
+![Image text](https://github.com/VeteranDriverONE/MHCHPSO/blob/main/WSN_coverage_png/MHCHPSO.png)
 
 # Citation Information
 
