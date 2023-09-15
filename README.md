@@ -18,4 +18,4 @@ Abstract: Wireless sensor networks (WSN) are widely used in many situations, but
 
 Keywords: particle swarm optimizer, Levy flight, multi-topology hierarchical collaborative framework, Lamarckian learning, intuitive fuzzy entropy, wireless sensor network
 
-Cite this article: Yi Wang, Kanqi Wang, Maosheng Zhang, Hongzhi Zheng, Hui Zhang. Multi-Topology Hierarchical Collaborative Hybrid Particle Swarm Optimization Algorithm for WSN. China Communications. 0 https://doi.org/10.23919/JCC.ja.2022-0806
+Cite this article: Yi Wang, Kanqi Wang, Maosheng Zhang, Hongzhi Zheng, Hui Zhang. Multi-Topology Hierarchical Collaborative Hybrid Particle Swarm Optimization Algorithm for WSN. China Communications. 2023, 20(8): 254-275 https://doi.org/10.23919/JCC.fa.2022-0806.202308
